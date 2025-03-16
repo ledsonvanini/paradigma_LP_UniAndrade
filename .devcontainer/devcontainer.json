@@ -1,0 +1,15 @@
+{
+  "name": "GCC-14 Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings" : {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "echo 'Dev container configurado!'"
+}
