@@ -4,6 +4,8 @@ INCLUDES = ./includes
 OBJ = ./obj
 SRC = ./src
 
+DKID = 
+
 FLAGSGCC = -o3 -Wall
 
 all:libed myapps 
@@ -22,3 +24,9 @@ run:
 
 clean:
 	rm ./bin/* ./obj/*
+
+dkid:
+	docker ps
+	
+dkstop:
+	docker stop 

@@ -8,7 +8,12 @@
       "settings" : {
         "terminal.integrated.shell.linux": "/bin/bash"
       },
-      "extensions": []
+      "extensions": [
+        "ms-vscode.cpptools",       // Suporte a C/C++
+        "twxs.cmake",                 // Extensão para CMake
+        "ms-azuretools.vscode-docker", // Suporte ao Docker
+        "ms-vscode.makefile-tools"   // Suporte para Makefiles 
+      ]
     }
   },
   "postCreateCommand": "echo 'Dev container configurado!'"
